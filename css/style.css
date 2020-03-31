@@ -839,6 +839,19 @@ html,body{
 		display: block;
 		padding: 10px;
 	}
+
+	.pn .box{
+		width: 200px;
+		height: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*..........Footer........*/
+	.footer-1, .footer-2, .footer-3{
+		margin: 0 auto;
+	}
 }
 
 
