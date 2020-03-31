@@ -447,7 +447,7 @@ html,body{
 
 .present{
 	width: 100%;
-	height: 55vh;
+	height: 60vh;
 	background: linear-gradient(
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
@@ -460,7 +460,7 @@ html,body{
 
 .txt_abt{
 	position: absolute;
-	margin-top: 8%; 
+	margin-top: 12%; 
 	z-index: 1000;
 }
 
@@ -476,11 +476,6 @@ html,body{
 	padding-top: 5px;
 	color: #fff;
 	font-size: 1.8em;
-}
-
-.cr{
-	background-color: #f4f4f4;
-	padding-bottom: 30px;
 }
 
 .cr h2{
@@ -551,6 +546,10 @@ html,body{
 	margin: 0;
 }
 
+.parallax{
+	padding-bottom: 80px;
+}
+
 .med_3_a{
 	background: url("../img/medical2.jpg");
 	background-position: left;
@@ -582,7 +581,7 @@ html,body{
 
 .life{
 	width: 100%;
-	height: 55vh;
+	height: 60vh;
 	background: linear-gradient(
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
@@ -619,7 +618,7 @@ html,body{
 
 .business{
 	width: 100%;
-	height: 55vh;
+	height: 60vh;
 	background: linear-gradient(
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
@@ -692,11 +691,11 @@ html,body{
 
 .property{
 	width: 100%;
-	height: 55vh;
+	height: 60vh;
 	background: linear-gradient(
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
-	url("../img/property.jpg");
+	url("../img/main4.jpg");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -729,7 +728,7 @@ html,body{
 
 .car{
 	width: 100%;
-	height: 55vh;
+	height: 60vh;
 	background: linear-gradient(
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
