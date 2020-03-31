@@ -676,3 +676,126 @@ html,body{
 	background-size: contain;
 	background-attachment: fixed;
 }
+
+/*...........Property Cover..........*/
+
+.property{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/property.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.pt{
+	padding-bottom: 50px;
+}
+
+.pt_1 img{
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 100px; 
+}
+
+.pt_1 h1{
+	font-size: 35px;
+	font-weight: 700;
+	padding-top: 180px;
+}
+
+.pt_1 p{
+	text-align: left;
+	line-height: 1.7;
+}
+
+/*...........Car Cover.........*/
+
+.car{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/car1.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.ca{
+	padding-bottom: 50px;
+}
+
+.ca_1 img{
+	width: 90%;
+	height: auto;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+.ca_1 h1{
+	font-size: 35px;
+	font-weight: 700;
+	padding-top: 180px;
+}
+
+.ca_1 p{
+	text-align: left;
+	line-height: 1.7;
+}
+
+.ca_2, .ca_5{
+	background-color: #494949;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.ca_2_txt{
+	border: 1px solid #309cea;
+	padding: 150px 0;
+}
+
+.ca_5_txt{
+	border: 1px solid #309cea;
+	padding: 100px 90px;
+}
+
+
+.ca_2_txt, .ca_5_txt h1{
+	font-weight: 700;
+}
+
+.ca_3_img{
+	background: url("../img/car3.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.ca_4_img{
+	background: url("../img/crack.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
