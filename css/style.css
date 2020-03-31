@@ -1,0 +1,583 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+.p_color{
+	color: green;
+}
+
+.t_left{
+	text-align: left;
+}
+
+.t_right{
+	text-align: right;
+}
+
+/*..........Navbar...........*/
+
+.bg-light{
+	background: white!important;
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+	padding-left: 60px;
+	padding-right: 10px;
+}
+
+.navbar-brand img{
+	width: 180px;
+	height: 65px;
+}
+
+.nav-item{
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+	font-weight: 480;
+	font-family: sans-serif;
+	padding-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f89828!important;
+}
+
+.dropdown-menu{
+	background-color: rgb(30,144,255);
+	border: none;
+}
+
+.dropdown-item{
+	padding: 5px 6px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.dropdown-item:hover{
+	color: #f89828;
+}
+
+/*.........Carousel........*/
+
+.slider{
+	margin-top: 6%;
+	border-bottom: 1px solid lightgrey;
+}
+
+.carousel-inner{
+	width: 100%;
+	height: 75vh;
+}
+
+.carousel-inner img{
+    height: inherit;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+}
+
+.carousel-item{
+	height: inherit;
+	width: 100%;
+}
+
+.bn{
+	position: absolute;
+	margin-top: 12%; 
+	z-index: 1000;
+}
+
+.bn h1{
+	font-weight: 600;
+	color: limegreen;
+	font-size: 3.4em;
+}
+
+.bn h2{
+	padding-top: 8px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.bn_1{
+    position: absolute;
+    margin-top: 25%;
+    z-index: 10;
+}
+
+.bn_1 .btn{
+	background: teal;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: none;
+}
+
+.bn_1 .btn:hover{
+	background: limegreen;
+	border: none;
+}
+
+/*.....Carousel Overlay......*/
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+
+/*..........Covers........*/
+
+.cover{
+	background-color: #f4f4f4;
+	width: 100%;
+	position: relative;
+	padding: 0 0 50px 0;
+}
+
+.cover h1{
+	padding: 30px 0 60px 0;
+	color: #383838;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.cover .row{
+	margin: 0;
+}
+
+.frame{
+	border-radius: 5px;
+	margin: 0 0px 50px 20px;
+	padding: 0px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.frame:hover{
+	box-shadow: 0px 0px 20px #888888;
+}
+
+.frame h5,p{
+	text-align: center;
+}
+
+.frame h5{
+	padding: 15px 0 6px 0;
+	color: #006400;
+	font-weight: bold;
+}
+
+.frame p{
+	padding: 0 0 5px 0;
+	color: #696969;
+}
+
+.frame img{
+	width: 100%;
+	height: 160px;
+}
+
+.frame button{
+	border: none;
+	background: seagreen;
+	padding: 5px 20px;
+	border-radius: 50px;
+	margin: 0 0 25px 0;
+}
+
+.frame button:hover{
+	background: darkgreen;
+}
+
+.frame button a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.mg-7{
+	margin-top: 7%;
+}
+
+/*.........About..........*/
+
+.abt{
+	padding: 70px 0;
+}
+
+.abt h1{
+	padding: 10px 0 0 0;
+	font-size: 40px;
+	font-weight: 600;
+	color: #383838;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.abt_1{
+	padding-top: 60px;
+}
+
+.abt_1 p{
+	text-align: left;
+	line-height: 1.7;
+	padding-right: 10px;
+}
+
+.pg{
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.pg p{
+	float: left;
+}
+
+.pg .progress{
+	height: 8px;
+	margin-top: 10px;
+}
+
+/*..........Partners...........*/
+
+.pn{
+	background: #f4f4f4;
+	padding-bottom: 40px;
+	margin-bottom: 1px solid black;
+	border-top: 1px solid lightgrey;
+}
+
+.pn h1{
+	padding: 30px 0 40px 0;
+	color: #383838;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.pn .box{
+	margin: 15px 35px 0 0;
+}
+
+.pn img{
+	width: 150px;
+	height: 150px;
+}
+
+/*.........Comments..........*/
+
+.contact{
+	background: #fff;
+	padding: 30px 0 60px 0;
+}
+
+.contact .frm{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contact h1{
+	color: #383838;
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+}
+
+.contact h4{
+	font-size: 19px;
+	font-weight: 400;
+	color: #747474;
+	font-family: Georgia, serif;
+	padding-bottom: 40px;
+	font-style: italic;
+}
+
+.contact label{
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.8;
+	color: #696969;
+	padding-left: 10px;
+}
+
+.contact input{
+	border-radius: 20px;
+	border: 2px solid #d8d8d8;
+	box-shadow: none;
+	padding: 20px;
+	width: 100%;
+}
+
+.contact input:focus{
+	border: 2px solid limegreen;
+	box-shadow: none;
+}
+
+::placeholder{
+	font-size: 1rem;
+}
+
+.contact button{
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+	color: white;
+	border-radius: 20px;
+	background-color: limegreen;
+}
+
+.contact button:hover{
+	color: #fff;
+}
+
+.contact a{
+	text-decoration: none;
+}
+
+/*...........Footer............*/
+
+.ftt{
+	background-color: #696969;
+}
+
+.footer-1{
+	float: left;
+	margin: 0 250px 0 20px;
+}
+
+.footer-2{
+	float: left;
+	margin-right: 150px;
+}
+
+.footer-3{
+	float: left;
+	margin-left: 130px;
+}
+
+.footer-ul{
+	list-style-type: none;
+}
+
+.footer-ul li{
+	text-align: center;
+	padding: 10px;
+}
+
+.footer-ul li:hover{
+	text-decoration: underline;
+}
+
+.footer-ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.ft-li li{
+	display: inline-block;
+}
+
+.ft-li .fa{
+	color: #fff;
+	font-size: 20px;
+}
+
+.ft-li li{
+	background-color: mediumseagreen;
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+}
+
+.ftt{
+	padding: 10px 0;
+}
+
+.ftt h4{
+	padding: 30px 0 10px 0;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1em;
+}
+
+.policy{
+	text-align: center;
+	color: #fff;
+}
+
+.policy p{
+	padding: 20px 0 0 0;
+	font-weight: 550;
+}
+
+.policy span{
+	font-weight: 550;
+}
+
+/*...........Medical Cover.........*/
+
+.present{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/medical.jpeg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.txt_abt{
+	position: absolute;
+	margin-top: 8%; 
+	z-index: 1000;
+}
+
+.txt_abt h1{
+	font-weight: 600;
+	color: #fff;
+	margin: 0;
+	font-size: 3.4em;
+}
+
+.txt_abt h2{
+	font-weight: 300;
+	padding-top: 5px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.cr h2{
+	font-weight: 35px;
+	color: green;
+	font-weight: 700;
+	padding: 30px 0 0 0;
+}
+
+.cr p{
+	line-height: 1.7;
+	font-size: 17px;
+	padding-left: 250px;
+	padding-right: 250px; 
+}
+
+.med_1 img{
+	width: 90%;
+	height: auto;
+	margin: 120px 20px 0 0;
+	border-radius: 10px;
+}
+
+.med_1 h1{
+	padding-top: 70px;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.med_1 p{
+	line-height: 1.7;
+}
+
+.med_1 h2{
+	font-weight: 600;
+}
+
+.med_2{
+	padding-bottom: 50px;
+}
+
+.med_2 h1{
+	padding-top: 90px;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.med_2 h2{
+	padding-top: 10px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.med_2 i{
+	color: black;
+	padding-right: 5px;
+}
+
+.med_2 img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 180px;
+	margin-left: 50px;
+}
+
+.parallax .row{
+	margin: 0;
+}
+
+.med_3_a{
+	background: url("../img/medical2.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.med_3_b{
+	background-color: #494949;
+	padding: 30px;
+	color: #fff;
+}
+
+.med_3_c{
+	border: 1px solid #309cea;
+	padding: 5px 5px 10px 30px;
+}
+
+.med_3_c h1{
+	padding: 10px;
+}
+
+.med_3_c i{
+	padding-right: 5px;
+}
+
+/*..........Life Cover..........*/ 
+
+.life{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/care.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
