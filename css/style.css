@@ -7,6 +7,12 @@ html,body{
 	font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 }
 
+/*.row-reverse{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}*/
+
 .p_color{
 	color: green;
 }
@@ -470,6 +476,11 @@ html,body{
 	padding-top: 5px;
 	color: #fff;
 	font-size: 1.8em;
+}
+
+.cr{
+	background-color: #f4f4f4;
+	padding-bottom: 30px;
 }
 
 .cr h2{
