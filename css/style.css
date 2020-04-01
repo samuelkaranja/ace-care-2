@@ -946,6 +946,14 @@ html,body{
 	.bs_3, .bs_4{
 		padding: 20px;
 	}
+
+	.bs_3_txt, .bs_4_txt{
+		padding: 20px;
+	}
+
+	.bs_3_txt h1, .bs_4_txt h1{
+		font-size: 25px;
+	}
 }
 
 
