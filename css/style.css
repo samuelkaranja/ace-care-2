@@ -954,6 +954,54 @@ html,body{
 	.bs_3_txt h1, .bs_4_txt h1{
 		font-size: 25px;
 	}
+
+	/*..........Property Cover...........*/
+	.property{
+		width: 100%;
+		height: 50vh;
+	}
+
+	.pt_1 img{
+		width: 100%;
+		height: auto;
+		margin-top: 60px;
+	}
+
+	.pt_1 h1{
+		padding-top: 40px;
+	}
+
+	/*..............Car Cover..........*/
+	.car{
+		width: 100%;
+		height: 50vh;
+	}
+
+	.ca_1 img{
+		width: 100%;
+		height: auto;
+		margin-top: 70px;
+	}
+
+	.ca_1 h1{
+		padding-top: 30px;
+	}
+
+	.ca_2_txt, .ca_5_txt{
+		padding: 60px 10px;
+	}
+
+	.ca_2_txt h1{
+		font-size: 25px;
+	}
+
+	.ca_2_txt p{
+		font-size: 15px;
+	}
+
+	.ca_5_txt h1{
+		font-size: 25px;
+	}
 }
 
 
