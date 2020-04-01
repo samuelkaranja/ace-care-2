@@ -803,6 +803,14 @@ html,body{
 		height: 40px;
 	}
 
+	.nav-item{
+		padding-left: 0;
+	}
+
+	.navbar-nav{
+		text-align: center;
+	}
+
 	.bn h1, h2{
 		padding-top: 70px;
 		font-size: 45px;
