@@ -7,12 +7,6 @@ html,body{
 	font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 }
 
-/*.row-reverse{
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column-reverse;
-	}*/
-
 .p_color{
 	color: green;
 }
@@ -221,7 +215,7 @@ html,body{
 }
 
 .mg-7{
-	margin-top: 7%;
+	margin-top: 6%;
 }
 
 /*.........About..........*/
@@ -851,6 +845,106 @@ html,body{
 	/*..........Footer........*/
 	.footer-1, .footer-2, .footer-3{
 		margin: 0 auto;
+	}
+
+	/*...........Medical Cover..........*/
+	.present{
+		width: 100%;
+		height: 50vh;
+		background-size: auto;
+	}
+
+	.txt_abt h1{
+		font-size: 35px;
+		padding-top: 80px;
+	}
+
+	.txt_abt h2{
+		font-size: 20px;
+	}
+
+	.cr h2{
+		font-size: 25px;
+		padding-bottom: 10px;
+	}
+
+	.cr p{
+		padding: 0;
+	}
+
+	.med_1 img{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+	}
+
+	.med_2 img{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+
+	.med_1 h1{
+		padding-top: 50px;
+	}
+
+	.med_1 h2{
+		font-size: 30px;
+		padding-top: 15px;
+	}
+
+	.row-reverse{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	.med_3_b{
+		padding: 20px;
+	}
+
+	.parallax{
+		padding: 0;
+	}
+
+	/*.........Life Cover........*/
+	.life{
+		width: 100%;
+		height: 50vh;
+	}
+
+	.lf_1 img{
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+	}
+
+	.lf_1 h1{
+		padding-top: 40px;
+
+	}
+
+	/*.........Business Cover........*/
+	.business{
+		width: 100%;
+		height: 50vh;
+	}
+
+	.bs_1 img{
+		width: 100%;
+		height: auto;
+		margin-top: 40px;
+	}
+
+	.bs_1 h1{
+		padding-top: 40px;
+	}
+
+	.bs_3, .bs_4{
+		padding: 20px;
 	}
 }
 
